@@ -1,0 +1,271 @@
+body{
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+ul{
+    display: flex;
+    height: 40px;
+    margin-left: 0px;
+}
+li{
+    display:inline;
+    padding: 20px;
+    text-align: center;
+    margin-top: -12px;
+}
+li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: grey;
+    transition: 0.3s;
+}
+li a:hover{
+    color: hotpink;
+}
+
+
+.ped_validade{
+    width: 300px;
+    display: flex;
+    margin-left: 120px;
+}
+.pedido{
+    width: 50%;
+}
+.pedido p{
+    margin-top: -12px;
+    font-size: 0.9em;
+}
+.validade{
+    width: 50%;
+
+}
+.ped_validade h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 20px;
+    font-weight:500;
+}
+.validade p{
+    margin-top: -12px;
+    color: red;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+.black_friday{
+    margin-left: 300px;
+    width: 300px;
+}
+.black_friday h2{
+    font-size: 1.4em;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+
+}
+.w100-p3{
+    height: 100%;
+    margin-left: 5px;
+    display: flex;
+}
+.row{
+    width: 70%;
+    height: 80%;
+    margin-top: 100px;
+    position: relative;
+}
+.col-sm{
+    text-align: center;
+    width:25%;
+}
+.produto{
+    margin-top: 50px;
+    height: 330px;
+}
+.btn{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.img_produto{
+    height: 200px;
+    width: 200px;
+}
+#prod_numerecao{
+    color: gray;
+    margin-bottom: 0px;
+}
+#descricao{
+    margin-bottom: 0px;
+}
+#informacao{
+    color: gray;
+    font-size: 0.9em;
+    margin-bottom: 0px;
+}
+#preco_vermelho{
+    font-size: 0.9em;
+    color: red;
+}
+.quant{
+    width: 60px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    transition: 0.3s;
+    padding: 3px;
+}
+
+.quant:focus{
+    border-color: green;
+}
+.simbolo-{
+    padding: 5px 9px 5px 9px;
+    text-decoration: none;
+    border: 1px solid grey;
+    border-radius:50%;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-right: 3px;
+}
+.simbolo-:hover{
+    background-color: red;
+    border-color:red ;
+}
+.simbolo-:hover .fa-minus{
+    color: white;
+}
+.simbolom{
+    padding: 5px 9px 5px 9px;
+    text-decoration: none;
+    border: 1px solid grey;
+    border-radius:50%;
+    text-align: center;
+    transition: 0.3s;
+    margin-left: 3px;
+}
+.simbolom:hover{
+    background-color: green;
+    border-color: green;
+}
+.simbolom:hover .fa-plus{
+    color: white;
+}
+.users{
+    float: right;
+    width: 30%;
+    margin-left: 15px;
+    text-align: center;
+}
+.input-group-prepend{
+    border:none
+}
+.form-control{
+    border:1px 1px 1px 0px solid;
+}
+
+.lbl{
+    padding: 5px 0px 4px 9px;
+    border:1px solid white;
+    background-color: white;
+    margin-right: -5px;
+    border-right: none;
+    font-weight: 700;
+    border-radius: 3px;
+    width: 95%;
+    text-align: left;
+}
+.lblinfo{
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+.Ncnpj{
+    margin-top: 10px;
+    text-align:center;
+   
+}
+.divisor{
+    text-align: center;
+    width: 100%;
+    font-weight: 800;
+    background: red;
+}
+.valor_min{
+    margin-top: -5px;
+    font-size: 0.8em;
+    color: grey;
+    text-align: left;
+}
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+.label-float{
+    position: relative;
+    text-align: left;
+    height:50px ;
+    width: 100%;
+  }
+  
+  .label-float input{
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    width: 40%;
+    padding: 15px 20px;
+    font-size: 1em;
+    height: 35px;
+    margin-left: 15%;
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -webkit-appearance:none;
+  }
+  
+  .label-float input:focus{
+    outline: none !important;
+    border:1px solid rgb(161, 24, 93);
+    box-shadow: 0 0 10px  rgb(197, 9, 103);
+  }
+  
+  .label-float input::placeholder{
+    color:transparent;
+  }
+  
+  .label-float label{
+    color: grey;
+    pointer-events: none;
+    position: absolute;
+    top: calc(50% - 6px);
+    left: 16%;
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    background-color: white;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .label-float input:required:invalid + label:before{
+    content: '*';
+  }
+  .label-float input:focus + label,
+  .label-float input:not(:placeholder-shown) + label{
+    font-size: 13px;
+    top: 0;
+    color: rgb(153, 8, 81)
+  }
+  #pesq{
+      margin-top: 15px;
+      height: 35px;
+  }
+
+
